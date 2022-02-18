@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Momentum App</title>
+</head>
+<body>
+	<form class="login-form">
+		<input required maxlength='15' type="text" placeholder="What is your name?" />
+		<input type="submit" value="Log In" />
+	</form>
+	<h1 id="greeting" class="hidden">이름</h1>
+	<h2 id="clock">여기는 시계</h2>
+
+	<form id="todo-form" >
+		<input type="text" id="todo-input" placeholder="할 일을 입력해주세요." required>
+	</form>
+	<ul id="todo-list">
+	</ul>
+	<script src="js/greeting.js"></script>
+	<script src="js/clock.js"></script>
+	<script src="js/todo.js"></script>
+	<script src="js/background.js"></script>
+</body>
+</html>
